@@ -1,4 +1,4 @@
-import '../public/css/style.css'
+import './css/style.css'
 import { v4 as uuidV4 } from "uuid";
 
 type Task = {
