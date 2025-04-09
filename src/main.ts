@@ -1,5 +1,6 @@
 import '../style.css'
 import '../css/style.css'
+import '/style.css'
 import { v4 as uuidV4 } from "uuid";
 
 type Task = {
