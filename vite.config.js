@@ -5,5 +5,7 @@ export default defineConfig({
     build: {
         outDir: 'dist',
         assetsDir: 'assets',
-    }
+        assetsInlineLimit: 0, // Don't inline CSS assets
+    },
+    publicDir: 'public', // Make sure this points to your public directory
 })
